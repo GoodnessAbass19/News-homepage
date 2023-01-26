@@ -2,7 +2,7 @@ import image from './images/image-web-3-desktop.jpg'
 import React from 'react';
 const Section = () => {
     return (
-        <section className='w-full h-full md:py-10 mt-16 text-white container mx-auto lg:max-w-screen-md'>
+        <section className='w-full h-full md:py-10 mt-16 text-white container mx-auto lg:max-w-screen-lg'>
             <div className=' flex-wrap md:flex lg:flex-row '>
                 <div className=' md:max-w-screen-lg w-full mx-auto  md:flex flex-col '>
                     <div className='md:max-w-screen-lg md:w-full w-4/5 md:h-full h-full  mx-auto'>
