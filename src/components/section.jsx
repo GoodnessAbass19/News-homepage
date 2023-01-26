@@ -2,8 +2,8 @@ import image from './images/image-web-3-desktop.jpg'
 import React from 'react';
 const Section = () => {
     return (
-        <section className='w-full h-full md:py-10 mt-16 text-white  container mx-auto'>
-            <div className=' flex-row md:flex md:flex-col justify-between '>
+          <section className='w-full h-full md:py-10 mt-16 text-white  container mx-auto'>
+            <div className=' flex-wrap md:flex'>
                 <div className=' md:max-w-screen-lg w-full mx-auto  md:flex flex-col '>
                     <div className='md:max-w-screen-lg md:w-full w-4/5 md:h-full h-full  mx-auto'>
                         <img src={image} alt="" className='md:h-full h-72' />
@@ -20,7 +20,7 @@ const Section = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-white md:max-w-screen-lg bg-black px-7 md:w-full w-4/5 md:mt-4 mt-20 mx-auto'>
+                <div className='text-white max-w-screen-lg bg-black px-7 md:w-1/4  w-4/5 md:mt-0 mt-20 mx-auto'>
                     <h2 className='text-5xl capitalize text-yellow-500 font-bold'>new</h2>
                     <div className='text-white grid grid-cols-1 divide-y pt-6'>
 
