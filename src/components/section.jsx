@@ -2,9 +2,9 @@ import image from './images/image-web-3-desktop.jpg'
 import React from 'react';
 const Section = () => {
     return (
-        <section className='w-full h-full md:py-10 mt-16 text-white  container mx-auto'>
-            <div className=' flex-wrap md:flex'>
-                <div className=' md:max-w-screen-lg w-full mx-auto  md:flex flex-col '>
+        <section className='w-full h-full md:py-10 mt-16 text-white container mx-auto'>
+            <div className=' flex-wrap md:flex lg:flex-row '>
+                <div className=' md:max-w-screen-lg lg:max-w-screen-md w-full mx-auto  md:flex flex-col '>
                     <div className='md:max-w-screen-lg md:w-full w-4/5 md:h-full h-full  mx-auto'>
                         <img src={image} alt="" className='md:h-full h-72' />
                     </div>
