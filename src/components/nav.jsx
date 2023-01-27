@@ -18,9 +18,9 @@ const Nav = () => {
         })
     })
     return (
-        <nav className={`w-full  left-0 top-0 z-[999]   ${sticky ? 'bg-white/60  text-gray-900' : 'text-white'}`}>
+        <nav className={`w-full  left-0 top-0 z-[999] container md:mx-auto   ${sticky ? 'bg-white/60  text-gray-900' : 'text-white'}`}>
         <div className="flex items-center justify-between md:mx-12">
-            <div className="mx-7">
+            <div className="">
                 <img src={logo} alt="" />
             </div>
             <div className={` ${sticky ? 'md:bg-white/0  bg-white' : 'bg-white'} text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full`}>
