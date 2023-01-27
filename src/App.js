@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container overflow-hidden mx-auto justify-center">
+    <div className="container md:overflow-hidden w-full">
       <Nav />
 
       <Section />
