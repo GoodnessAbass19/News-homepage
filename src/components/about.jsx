@@ -18,7 +18,7 @@ const About = () => {
         <section className="md:flex flex-wrap items-center justify-center md:mt-10 mt-16">
             {
                 image.map((img, i) => (
-                    <div key={i} className="md:max-w-screen-lg mx-auto mx-6">
+                    <div key={i} className="md:max-w-screen-md mx-auto mx-6 left-0">
                         <div className="flex items-center justify-center gap-4 md:max-w-md mx-6 my-6">
                             <div>
                                 <img src={img.img} alt="" className="md:h-full"/>
